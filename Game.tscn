@@ -1,9 +1,9 @@
 [gd_scene load_steps=11 format=3 uid="uid://bk5tbqwtyn3rs"]
 
 [ext_resource type="Script" path="res://Brick/Brick_Container.gd" id="1"]
+[ext_resource type="Script" path="res://UI/Camera.gd" id="1_ck8ig"]
 [ext_resource type="PackedScene" uid="uid://batxdldth7p7h" path="res://Paddle/Paddle.tscn" id="2"]
 [ext_resource type="Script" path="res://Ball/Ball_Container.gd" id="3"]
-[ext_resource type="Script" path="res://Game.gd" id="4"]
 [ext_resource type="PackedScene" uid="uid://cebrleuuy0vld" path="res://UI/Pause_Menu.tscn" id="5"]
 [ext_resource type="Script" path="res://Wall/Wall.gd" id="6"]
 [ext_resource type="PackedScene" uid="uid://chn44njl6rjpj" path="res://UI/HUD.tscn" id="7"]
@@ -16,7 +16,7 @@ size = Vector2(200, 1000)
 size = Vector2(1220, 200)
 
 [node name="Game" type="Node2D"]
-script = ExtResource("4")
+script = ExtResource("1_ck8ig")
 
 [node name="Wall_Container" type="Node2D" parent="."]
 
